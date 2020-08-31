@@ -119,5 +119,5 @@ void SequenciaDois(int SecondDelay)
   delay(SecondDelay);
 
   digitalWrite(ledF,LOW);
-  Pdelay(SecondDelay);
+  delay(SecondDelay);
 }
