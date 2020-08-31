@@ -1,5 +1,5 @@
 int botao = 2;
-int ledA = 8;
+int ledA = 3;
 int ledB = 4;
 int ledC = 5;
 int ledD = 6;
