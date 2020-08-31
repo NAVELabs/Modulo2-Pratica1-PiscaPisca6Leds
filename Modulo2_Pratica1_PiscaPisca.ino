@@ -10,7 +10,6 @@ int posicaoSequencia;
 void setup() 
 {
   posicaoSequencia = 0;
-  pinMode(botao,INPUT);
 
   pinMode(botao, INPUT_PULLUP);
   attachInterrupt(digitalPinToInterrupt(botao), MudaSequencia, RISING);
